@@ -2,9 +2,10 @@ import javax.swing.*;
 
 public class Window extends JFrame {
 
-    GOL gameOfLife = new GOL();
+    GameOfLife gameOfLife = new GameOfLife();
 
     public Window() {
+        this.setTitle("Conway's Game of Life");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
         this.setResizable(false);

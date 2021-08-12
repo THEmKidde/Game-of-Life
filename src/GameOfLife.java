@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class GOL extends JPanel implements ActionListener {
+public class GameOfLife extends JPanel implements ActionListener {
 
     int cellSize = 14;
     int cellPadding = 1;
@@ -11,7 +11,7 @@ public class GOL extends JPanel implements ActionListener {
     int rows = 50;
     Cell[][] currentGeneration = CreateInitialGeneration(columns,rows);
 
-    public GOL() {
+    public GameOfLife() {
         this.setPreferredSize(new Dimension((cellSize + cellPadding) * columns - cellPadding,(cellSize + cellPadding) * rows - cellPadding));
         this.setBackground(Color.LIGHT_GRAY);
 
