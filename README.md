@@ -8,4 +8,4 @@ The Game of Life is a two-dimensiona grid of square cells, where each cell is ei
 3. All other live cells die in the next generation. Similarly, all other dead cells stay dead.
 The initial states of the first generation is generated at random, and from there each cell's state is determined by the aforementioned rules.
 
-<img src="https://imgur.com/VRIhVgs"/>
+<img src="https://i.imgur.com/VRIhVgs.png"/>
