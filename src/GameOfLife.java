@@ -11,8 +11,8 @@ public class GameOfLife extends JPanel implements ActionListener {
     int cellSize = 14;
     int cellPadding = 1;
 
-    int columns = 80;
-    int rows = 50;
+    int columns = 91;
+    int rows = 51;
     Cell[][] currentGeneration = CreateInitialGeneration(columns,rows);
 
     int width = (cellSize + cellPadding) * columns - cellPadding + xOffset;
